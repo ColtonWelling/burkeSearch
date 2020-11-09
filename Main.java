@@ -130,7 +130,7 @@ public class Main extends Application{
 			}
 		}
 		
-		if(found == false) {
+		if(!found) {
 			filePath = "NO SUCH BUILD NUMBER FOUND";
 		}
 		
