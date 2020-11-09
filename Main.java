@@ -85,14 +85,10 @@ public class Main extends Application{
 		
 		
 		final FlowPane choicePane = new FlowPane();
-		//choicePane.getChildren().add(buildNumPrompt);
-		//choicePane.getChildren().add(buildNumField);
 		choicePane.getChildren().addAll(buildNumPrompt, buildNumField, textArea, dirButton, searchButton, resultArea);
 		
 		mainPane.setTop(choicePane);
-		Scene appScene = new Scene(mainPane,WINDOW_WIDTH,WINDOW_HEIGHT);
-		
-		//EventHandler to open file directory and choose parent folder
+		Scene appScene = new Scene(mainPane, WINDOW_WIDTH, WINDOW_HEIGHT);
 		;
 		
 		
@@ -146,3 +142,4 @@ public class Main extends Application{
 		launch(args);
 	}
 }
+
